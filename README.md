@@ -29,7 +29,7 @@ Please refer to other works in sequential recommendation preprocessing for the l
 
 ## Pre-training and Prediction
 ```
-python main.py --data_name=Toys_and_Games --dropout=1 --lr=0.001 --recdim=128 --layer=4 --decay=0.0001 --keepprob=0.7 --model_name=LightGCN
+python pretrain.py --data_name=Toys_and_Games --dropout=1 --lr=0.001 --recdim=128 --layer=4 --decay=0.0001 --keepprob=0.7 --model_name=LightGCN
 ```
 
 ## Enhanced-UI
