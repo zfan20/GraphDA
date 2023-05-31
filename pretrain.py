@@ -88,4 +88,4 @@ else:
     valid_scores, _, _ = trainer.valid('best', full_sort=True)
     #trainer.args.train_matrix = test_rating_matrix
     scores, result_info, _ = trainer.test('best', full_sort=True)
-    scores, result_info, _ = trainer.complicated_eval()
+    #scores, result_info, _ = trainer.complicated_eval()
